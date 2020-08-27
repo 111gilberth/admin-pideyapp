@@ -1,0 +1,16 @@
+[08-Aug-2020 22:14:44 UTC] PHP Fatal error:  Uncaught exception 'CHttpException' with message 'The CSRF token could not be verified.' in /home/pideyappcom/public_html/protected/components/HttpRequest.php:54
+Stack trace:
+#0 /home/pideyappcom/public_html/yiiframework/base/CComponent.php(561): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 /home/pideyappcom/public_html/yiiframework/base/CApplication.php(212): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /home/pideyappcom/public_html/yiiframework/base/CApplication.php(183): CApplication->onBeginRequest(Object(CEvent))
+#3 /home/pideyappcom/public_html/index.php(62): CApplication->run()
+#4 {main}
+  thrown in /home/pideyappcom/public_html/protected/components/HttpRequest.php on line 54
+[08-Aug-2020 22:14:46 UTC] PHP Fatal error:  Uncaught exception 'CHttpException' with message 'The CSRF token could not be verified.' in /home/pideyappcom/public_html/protected/components/HttpRequest.php:54
+Stack trace:
+#0 /home/pideyappcom/public_html/yiiframework/base/CComponent.php(561): HttpRequest->validateCsrfToken(Object(CEvent))
+#1 /home/pideyappcom/public_html/yiiframework/base/CApplication.php(212): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /home/pideyappcom/public_html/yiiframework/base/CApplication.php(183): CApplication->onBeginRequest(Object(CEvent))
+#3 /home/pideyappcom/public_html/index.php(62): CApplication->run()
+#4 {main}
+  thrown in /home/pideyappcom/public_html/protected/components/HttpRequest.php on line 54
